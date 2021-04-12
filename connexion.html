@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>index.html</title>
+        
+ </head>
+ <body>
+       
+        <h1>Get Groovy</h1>
+            
+        <p>
+            <a href="index.html">Accuiel</a>
+            <a href="">Albums</a>
+            <a href="#promotions">Promotions</a>
+            <a href="">Contact</a>
+            <a href="">Inscriptions</a>s
+             </p>
+        <p>
+           <img src="photo1.jpg" /> 
+        </p>
+             <h3>Welcom to the groovy</h3><hr />
+    <table border="1">
+         <tr>
+             <td rowspan="9">fiche personnelle</td>
+         </tr>
+             <td>Nom:</td>
+             <td> <input type="text" name="name" id="name"  required minlength="3"maxlength="20" /></td>
+         </tr>
+         <tr>
+             <td>Prénom:</td>
+             <td><input type="text" name="name" id="name"  required minlength="3"maxlength="20" /></td
+         </tr>
+         <tr>
+             <td>Date de naissance:</td>
+             <td><input type="date" name="begin"
+        placeholder="dd-mm-yyyy" value="dd/mm/yyyy"min="2002-01-01"max="2050" /> </td>
+         </tr>
+         <tr>
+                     <td>Sex:</td>
+             <td> <input type="radio" name="genre" value="f" checked />Famme
+                     <input type="radio" name="genre"value="h"checked />Homme
+             </td>
+         </tr>
+         <tr>
+             <td>Adresse mail:</td>
+             <td><input type="mail"placeholder="contacte@gmail.com" name="mail" id="mail" /></td>
+         </tr>
+         <tr>
+             <td>Téléphone:</td>
+                         <td><input type="tel" placeholder="12-345-678"name="tel"/></td>
+         </tr>
+         <tr>
+             <td>Profession:</td>
+             <td>   <select name="select" id="select"><option value="select">select</option>
+                 <option value="pilotte">pilotte</option>
+                <option value="dévloppeur">dévloppeur</option>
+                </select></td>
+         </tr>
+         <tr>
+             <td>Adresse:</td>
+             <td><textarea name="comment"rows="12"cols="40"></textarea></td>
+         </tr>
+         <tr>
+             <td rowspan="2">Préférences:</td>
+             <td colspan="2">Style de music:</td>
+         </tr>
+         <tr> 
+             <td><input type="checkbox"name="speciality"value="R&b"/>R&B <br />
+               <input type="checkbox"name="speciality"value="Soul"/>Soul <br />
+               <input type="checkbox"name="speciality"value="Jazz"/>jazz <br />
+                         </td>
+             <td><input type="checkbox" name="speciality" value="Rock" />Rock <br />
+               <input type="checkbox" name="speciality" value="Electronic" />Electronic <br />
+               <input type="checkbox" name="speciality" value="Classic" />Classic <br /></td>
+         </tr>
+             <td rowspan="4">Information de connexion:</td>
+         </tr>
+             <td>Login:</td>
+             <td><input type="text"/></td>
+         <tr>
+             <td>Mot de passe:</td>
+             <td><input type="password" name="pass" id="pass" minlength="8" required /></td>
+         </tr>
+         <tr>
+             <td>Confirmer mot de passe:</td>
+             <td><input type="password" name="password" id="password" /></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td> <input type="reset" name="envoye" value="Envoyer" /></td>
+             <td><input type="reset" name="Annuler"  value="Annuler" /></td>
+        </tr>
+    </table>
+ </body>
+</html>
